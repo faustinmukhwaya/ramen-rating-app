@@ -1,0 +1,111 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #ccc;
+}
+
+#ramen-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+#ramen-menu img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#ramen-menu img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgba(59, 59, 59, 0.2);
+}
+
+#ramen-detail {
+    margin-bottom: 20px;
+}
+
+#ramen-detail img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+#ramen-detail img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+h2, h3, h4 {
+    color: #00e1ff;
+}
+
+h4 {
+    background-color: #000000;
+    color: #e4d5d5;
+    padding: 10px 20px;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#new-ramen-form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #7c7979;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#new-ramen-form input,
+
+#new-ramen-form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    color: #000000;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#new-ramen-form input[type="text"],
+
+#new-ramen-form input[type="number"] {
+    border: 1px solid #add8e6;
+    outline-color: #87ceeb;
+}
+
+#new-ramen-form button {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#new-ramen-form button:hover {
+    background-color: #333333;
+}
+
