@@ -25,6 +25,8 @@ ramenMenu.addEventListener('click', (e) => {
         
         detailImage.src = imageSrc;
         detailImage.alt = e.target.alt;
+        detailName.textContent = ramenName;
+        detailRestaurant.textContent = ramenData[ramenName]?.restaurant || '';
 
         if (ramenData[ramenName]) {
             ratingDisplay.textContent = ramenData[ramenName].rating;
