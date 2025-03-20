@@ -1,5 +1,19 @@
 # Ramen-Rating-App
 
-It is a website used to rate and give feedback on different types of ramen dishes.It also can search different dishes and get feedback on the rating of the dish and where you can find the specific dish
+A simple web app for rating different types of ramen dishes.users can view different lists of ramen,see the details about the ramen dishes and also add new ramen on the lsit
 
-it needs a windows 11 7th Gen laptop and above corei5 and a RAM above 7 
+
+#Features 
+
+ There is detail information about different ramen dishes 
+ users can add new ramen dishes 
+ Displays a list of ramen dishes with immages 
+
+#Technologies Used 
+
+HTML
+CSS
+JAVASCRIPT
+ 
+
+
